@@ -1,0 +1,315 @@
+.body {
+  overflow-x: hidden;
+}
+
+.carousel .slide.selected .card {
+transform: scale(1.1);
+}
+
+/* Update the CSS module */
+
+/* Update the CSS module */
+
+.featuredHeader {
+  position: absolute;
+  top: 30%; /* adjust as per your requirement */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'sans-serif';
+  font-style: italic;
+  font-weight: lighter;
+  color: #fff; /* color of the text */
+  font-size: 2rem; /* font size */
+  z-index: 2; /* to make sure the text appears on top of the image */
+  text-align: center;
+  background-color: #000000; /* black background */
+  text-transform: uppercase; /* convert text to uppercase */
+  padding: 10px; /* add some padding around the text */
+}
+
+
+.card_content h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'sans-serif';
+  font-style: italic;
+  font-weight: lighter;
+  color: #fff; /* change this color as per your requirement */
+  background-color: #ff0000; /* black background */
+  text-transform: uppercase; /* convert text to uppercase */
+  padding: 10px; /* add some padding around the text */
+}
+
+/* CSS module */
+
+.featuredText {
+  font-family: 'sans-serif';
+  font-style: 'italic';
+  font-weight: 'lighter';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.textBackground {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+.card {
+border: none;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+overflow: hidden;
+transition: transform 0.3s ease;
+max-height: 100vh; 
+width: 100%; 
+}
+
+.card_image {
+width: 100%;
+object-fit: cover;
+height: 75vh;
+}
+
+.card_content {
+padding: 10px;
+height: 25vh;
+}
+
+
+.carousel .slide {
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.carousel .control-arrow {
+top: 50%;
+}
+
+.carousel .control-next.control-arrow:before {
+content: '>';
+}
+
+.carousel .control-prev.control-arrow:before {
+content: '<';
+}
+
+.carousel .slide img {
+max-height: 80vh;
+object-fit: cover;
+}
+
+.container {
+scroll-snap-type: y mandatory;
+overflow-y: auto;
+height: 100vh;
+width: 100%;
+}
+
+.section {
+height: 100vh;
+scroll-snap-align: start;
+}
+
+/* ...rest of your css */
+
+/* remove background image from banner */
+.banner {
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+
+.bannerContent {
+text-align: center;
+color: #fff;
+}
+
+.bannerContent h1 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+font-weight: lighter;
+font-style: italic;
+text-transform: uppercase;
+}
+
+.bannerContent p {
+font-size: 1.5rem;
+}
+
+.mission_banner {
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;
+margin: 70px 0px;
+}
+
+.mission_banner h3 {
+color: indianred;
+letter-spacing: 1.8px;
+}
+
+.mission_logo {
+font-weight: 900 !important;
+font-size: 30px;
+}
+
+.home_featured_video {
+width: 100%;
+box-sizing: border-box;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 50px 0px;
+height: 100vh;
+}
+
+.home_featured_video_content,
+.home_featured_video_video {
+max-width: 50%;
+}
+
+.home_featured_video_content {
+width: 400px;
+}
+
+.home_featured_video_content h2 {
+color: indianred;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+margin: 10px 0px;
+}
+
+.home_featured_video_content p {
+font-size: 18px;
+margin: 10px 0px;
+text-transform: uppercase;
+}
+
+.articles_cards {
+margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+box-sizing: border-box;
+padding: 20px;
+}
+
+.main_article {
+width: 50%;
+box-sizing: border-box;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.featured_articles {
+width: 50%;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 300px;
+}
+
+.main_article_card {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.medium_article_card {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30%;
+}
+
+.small_article_card {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+margin-top: 10px;
+}
+
+.main_article_card_img {
+object-fit: cover;
+margin-top: 10px;
+}
+
+.medium_article_card_img {
+margin-top: 10px;
+object-fit: cover;
+}
+
+.small_article_card_img {
+width: 80%;
+margin-top: 10px;
+object-fit: cover;
+}
+
+.articles_banner {
+width: 100%;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+}
+
+.small_article_card a, 
+.medium_article_card a, 
+.main_article_card a {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: black;
+}
+
+.home_banner {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+box-sizing: border-box;
+min-height: 70vh;
+}
+
+.home_banner section {
+width: 100%;
+}
+
+.home_banner a {
+text-decoration: none;
+}
+
+.home_banner p {
+width: 50%;
+text-align: center;
+}

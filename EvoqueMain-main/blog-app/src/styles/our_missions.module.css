@@ -1,0 +1,55 @@
+/* our_missions.module.css */
+
+.body {
+  padding-top: 150px;
+  color: white;
+  background-color: black;
+  font-family: 'GT Walsheim', sans-serif;
+  text-transform: uppercase;
+  text-align: center; /* Center align the title */
+}
+
+.missionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'GT Walsheim', sans-serif;
+  margin-bottom: 40px; /* Add some margin below the title */
+}
+
+.missionSection {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the items vertically */
+  margin-bottom: 20px;
+}
+
+.missionText {
+  flex: 1;
+  max-width: 400px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: justify;
+  margin: 20px; /* Add some margin for spacing */
+}
+
+.missionImage {
+  flex: 1;
+  text-align: center;
+  margin: 20px; /* Add some margin for spacing */
+}
+
+.imageContainer {
+  display: inline-block;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.missionDescription {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'GT Walsheim', sans-serif;
+}

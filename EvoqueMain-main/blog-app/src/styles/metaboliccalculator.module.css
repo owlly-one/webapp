@@ -1,0 +1,154 @@
+/* metaboliccalculator.module.css */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.calculator {
+  background-color: black;
+  padding: 2.5%;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'GT Walsheim', sans-serif;
+  color: white;
+}
+
+.calculator h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.calculator form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.upperLeftContainer,
+.upperRightContainer,
+.bottomLeftContainer,
+.bottomRightContainer {
+  width: 100%;
+  max-width: 550px;
+  margin: 20px;
+}
+
+.calculator label {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.calculator input[type='number'],
+.calculator select,
+.calculator input[type='range'] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+}
+
+.calculator button {
+  padding: 15px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+
+.calculator button:hover {
+  background-color: #45a049;
+}
+
+.calculator .bodyFatSection {
+  margin-bottom: 20px;
+}
+
+.calculator .bodyFatImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.calculator .bodyFatImages label { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 32%;
+}
+
+.calculator .bodyFatImages input[type='radio'] {
+  display: none;
+}
+
+.calculator .bodyFatImages img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculator .bodyFatImages img:hover {
+  border-color: #4caf50;
+}
+
+.calculator .bodyFatImages img.selected {
+  border-color: #1f10f3;
+}
+
+.calculator .formContainer > div {
+  margin-bottom: 20px;
+}
+
+.calculator .bottomLeftContainer input[type='range'],
+.calculator .bottomLeftContainer span {
+  display: block;
+  margin-top: 10px;
+}
+.calculator .bottomLeftContainer.moveUp {
+  margin-top: -4%; /* Adjust the value as needed to move the section up */
+}
+
+.calculator h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.calculator p {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.calculator div span {
+  margin-left: 5px;
+}
+
+.calculator .buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
