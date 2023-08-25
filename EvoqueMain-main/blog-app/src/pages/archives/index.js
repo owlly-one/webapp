@@ -38,7 +38,6 @@ const Blog = ({ blogs }) => {
         <div className={styles.archive_blogs_section}>
           {
             blogs.filter(b => b.category?.includes(category)).map((blog, index) => {
-              console.log(blog.category)
               return <ArchiveBlogCard blog={blog} key={index} />
             })
           }
