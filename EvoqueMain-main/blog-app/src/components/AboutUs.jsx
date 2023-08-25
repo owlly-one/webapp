@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/aboutus.module.css';
-import kadenJerryImage from "../images/kaden_jerry.jpg";
+import kadenJerryImage from "../images/kaden_jerry.JPG";
 import Image from "next/image"
 
 const AboutUs = () => {
