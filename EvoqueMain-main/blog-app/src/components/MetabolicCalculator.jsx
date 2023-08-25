@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import styles from '../styles/metaboliccalculator.module.css';
-import fillerImage from '../images/kaden_jerry.JPG'
+import fillerImage from '../images/kaden_jerry.jpg'
 
 const MetabolicCalculator = () => {
   const [weight, setWeight] = useState('');
