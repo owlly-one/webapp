@@ -36,8 +36,9 @@ const Physical = ({ blogs }) => {
         All 
     </button>
     {
-        exerciseCategories.map(cat => (
+        exerciseCategories.map((cat, index) => (
             <button 
+            key={index}
                 className={`${styles.button} ${category === cat ? styles.selected : ""}`}
                 onClick={() => setCategory(cat)} 
                 style={customButtonStyle} 
