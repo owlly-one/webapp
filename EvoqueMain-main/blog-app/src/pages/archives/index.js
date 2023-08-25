@@ -32,7 +32,7 @@ const Blog = ({ blogs }) => {
         <div className={styles.filteration_bar}>
           <button onClick={() => setCategory("")} style={{ backgroundColor: category === "" && "gray" }} > All </button>
           {
-            categories.map(cat => <button onClick={() => setCategory(cat.value)} style={{ backgroundColor: (category === cat.value) === true && "gray" }} > {cat.value} </button>)
+            categories.map((cat, index) => <button key={index} onClick={() => setCategory(cat.value)} style={{ backgroundColor: (category === cat.value) === true && "gray" }} > {cat.value} </button>)
           }
         </div>
         <div className={styles.archive_blogs_section}>
